@@ -1,0 +1,20 @@
+*{padding: none; margin: none; box-sizing: border-box;}
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+.game-container {display: flex;
+}
+
+.alien-ships {display: flex;
+flex-direction: row column;
+}
+
+.top-gun {display: flex;
+flex-direction: column;
+}
